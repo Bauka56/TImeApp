@@ -8,12 +8,12 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
 class CountryAdapter (
-    var myCountry: ArrayList<Country>)
+    var myCountry: List<Country>)
     : RecyclerView.Adapter<CountryAdapter.CountryViewHolder>() {
 
     var onItemClick: ((Country) -> Unit)? = null
 
-    class CountryViewHolder(itemview: View) : RecyclerView.ViewHolder(itemview){
+    inner class CountryViewHolder(itemview: View) : RecyclerView.ViewHolder(itemview){
         val textCity: TextView = itemview.findViewById(R.id.tvCityName)
         val textCountry: TextView = itemview.findViewById(R.id.tvCountryName)
         val textTime: TextView = itemview.findViewById(R.id.tvClockTime)

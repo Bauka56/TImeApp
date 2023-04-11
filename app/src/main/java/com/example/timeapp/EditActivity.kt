@@ -16,6 +16,8 @@ class EditActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edit)
 
+
+
         var countryD = intent.getParcelableExtra<Country>("count")
         if (countryD != null) {
             var cityEdit: TextView = findViewById(R.id.etEditCity)
@@ -27,10 +29,10 @@ class EditActivity : AppCompatActivity() {
             timeEdit.text = countryD.countryTime
         }
 
+
         btnEditApply = findViewById(R.id.btnEditApply)
 
         btnEditApply.setOnClickListener{
-
         }
     }
 }

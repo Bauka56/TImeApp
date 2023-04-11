@@ -3,6 +3,7 @@ package com.example.timeapp
 import android.os.Parcel
 import android.os.Parcelable
 
+
 data class Country(
     var nameCity: String,
     var nameCountry: String,
