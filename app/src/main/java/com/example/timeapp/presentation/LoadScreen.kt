@@ -1,10 +1,11 @@
-package com.example.timeapp
+package com.example.timeapp.presentation
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.timeapp.R
 
 @Suppress("DEPRECATION")
 class LoadScreen : AppCompatActivity() {
@@ -18,6 +19,6 @@ class LoadScreen : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
-        }, 6000L)
+        }, 4000L)
     }
 }

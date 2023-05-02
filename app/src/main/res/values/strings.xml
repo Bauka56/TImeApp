@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TImeApp</string>
+    <string name="error_input_city">Invalid city</string>
+    <string name="error_input_country">Invalid country</string>
+    <string name="error_input_time">Invalid time</string>
+
 </resources>

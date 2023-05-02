@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/second"
-    tools:context=".OurTimeActivity">
+    tools:context=".presentation.OurTimeActivity">
 
     <TextView
         android:id="@+id/tvOurCity"
